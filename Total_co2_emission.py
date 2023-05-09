@@ -20,20 +20,11 @@ print(df)
 
 print(df.isnull().any())
 print(df.shape)
-# print('\n')
+
 print(df['Total_emissions'].describe())
-#print(df['Items'].describe())
+
 print(df.info())
-# #sns.pairplot(df)
-# check correlation
-#sns.heatmap(df.corr(),annot= True)
-#plt.plot(df['Total_emissions'], df['Land use change'], color='blue',linewidth=1,alpha =0.8)
-# plt.plot(df['Total_emissions'], df['Animal Feed'], color='violet',linewidth=1,alpha =0.8)
-# plt.plot(df['Total_emissions'], df['Farm'], color='cyan',linewidth=1,alpha =0.8)
-# plt.plot(df['Total_emissions'], df['Processing'], color='black',linewidth=1,alpha =0.8)
-# plt.plot(df['Total_emissions'], df['Transport'], color='seagreen',linewidth=1,alpha =0.8)
-# plt.plot(df['Total_emissions'], df['Packging'], color='pink',linewidth=1,alpha =0.8)
-# plt.plot(df['Total_emissions'], df['Retail'], color='orange',linewidth=1,alpha =0.8)
+
 
 
 #x=df[['Items']]
